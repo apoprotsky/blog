@@ -8,9 +8,9 @@
 
 ## macOS
 
-* [Настройка shell пользователя](macos/nastroika-shell-polzovatelya.md)
-* [Настройка  Finder](macos/nastroika-finder.md)
-* [Служба Spotlight](macos/sluzhba-spotlight.md)
+* [Настройка  Finder](macos/configure-finder.md)
+* [Настройка shell пользователя](macos/configure-user-shell.md)
+* [Служба Spotlight](macos/spotlight-service.md)
 
 ## MongoDB
 
@@ -26,5 +26,5 @@
 
 ## Unix
 
-* [Работа с архивами](unix/rabota-s-arkhivami.md)
+* [Работа с архивами](unix/working-with-archives.md)
 
