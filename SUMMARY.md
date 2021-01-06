@@ -4,11 +4,9 @@
 
 ## FreeBSD
 
----
-
-* [Установка XOrg и Gnome](installing-xorg-and-gnome.md)
-* [Свой репозиторий pkgng](own-pkgng-repository.md)
-* [Поддержка ZFS](podderzhka-zfs.md)
+* [Установка XOrg и Gnome](freebsd/ustanovka-xorg-i-gnome.md)
+* [Свой репозиторий pkgng](freebsd/svoi-repozitorii-pkgng.md)
+* [Поддержка ZFS](freebsd/podderzhka-zfs.md)
 
 ## Git
 
