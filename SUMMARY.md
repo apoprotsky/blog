@@ -7,7 +7,8 @@
 ---
 
 * [Установка XOrg и Gnome](installing-xorg-and-gnome.md)
-* [Создание собственного репозитория pkgng](own-pkgng-repository.md)
+* [Свой репозиторий pkgng](own-pkgng-repository.md)
+* [Поддержка ZFS](podderzhka-zfs.md)
 
 ## Git
 
