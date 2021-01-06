@@ -12,5 +12,5 @@
 
 ## Git
 
-* [Руководство по основным операциям](git/rukovodstvo-po-osnovnym-operaciyam.md)
+* [Основные операции](git/main-operations.md)
 
