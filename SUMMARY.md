@@ -6,6 +6,14 @@
 
 * [Основные операции](git/main-operations.md)
 
+## macOS
+
+* [Настройка shell пользователя](macos/nastroika-shell-polzovatelya.md)
+
+## MongoDB
+
+* [Пользователи и авторизация](mongodb/users-and-auth.md)
+
 ## MySQL
 
 * [Восстановление репликации](mysql/replication-repair.md)
@@ -13,4 +21,8 @@
 ## PostgreSQL
 
 * [Служебные операции](postgresql/service-operations.md)
+
+## Unix
+
+* [Работа с архивами](unix/rabota-s-arkhivami.md)
 
