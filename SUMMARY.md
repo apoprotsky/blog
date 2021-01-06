@@ -4,8 +4,10 @@
 
 ## FreeBSD
 
-* [Управление пулами ZFS](freebsd/zfs-pool-management.md)
-* [Управление томами ZFS](freebsd/zfs-dataset-management.md)
+---
+
+* [Установка XOrg и Gnome](installing-xorg-and-gnome.md)
+* [Создание собственного репозитория pkgng](own-pkgng-repository.md)
 
 ## Git
 
@@ -20,9 +22,11 @@
 ## MongoDB
 
 * [Пользователи и авторизация](mongodb/users-and-auth.md)
+* [Полезные ссылки](mongodb/usefull-links.md)
 
 ## MySQL
 
+* [Установка в FreeBSD](mysql/ustanovka-v-freebsd.md)
 * [Восстановление репликации](mysql/replication-repair.md)
 * [Полезные ссылки](mysql/usefull-links.md)
 
@@ -34,9 +38,18 @@
 
 * [Служебные операции](postgresql/service-operations.md)
 
+## SVN
+
+* [Полезные заметки](svn/usefull-notes.md)
+
 ## Unix
 
 * [Работа с архивами](unix/working-with-archives.md)
+
+## ZFS
+
+* [Управление пулами ZFS](zfs/zfs-pool-management.md)
+* [Управление томами ZFS](zfs/zfs-dataset-management.md)
 
 ## Транспорт
 
