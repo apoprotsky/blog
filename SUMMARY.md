@@ -4,7 +4,7 @@
 
 ## FreeBSD
 
-* [Установка XOrg и Gnome](freebsd/ustanovka-xorg-i-gnome.md)
+* [Установка XOrg и Gnome](freebsd/installing-xorg-and-gnome.md)
 * [Свой репозиторий pkgng](freebsd/svoi-repozitorii-pkgng.md)
 * [Поддержка ZFS](freebsd/zfs-support.md)
 * [Использование CARP](freebsd/using-carp.md)
@@ -20,7 +20,7 @@
 * [Настройка shell пользователя](macos/configure-user-shell.md)
 * [Служба Spotlight](macos/spotlight-service.md)
 * [Локализация каталогов](macos/directory-localization.md)
-* [Маршрутизация и VPN](macos/marshrutizaciya-i-vpn.md)
+* [Маршрутизация и VPN](macos/routing-and-vpn.md)
 
 ## MongoDB
 
