@@ -3,18 +3,18 @@
 `pkgng` - новый менеджер пакетов, обладающий весьма привлекательным функционалом.  
 Но при использовании стандартного репозитория пакетов `pkg.FreeBSD.org` мы теряем возможность опциональной сборки приложения. Решение - создание собственного репозитория, в котором пакеты приложений будут собраны с необходимыми нам опциями. Для создания своего репозитория воспользуемся `poudriere` - инструментом для тестирования сборки пакетов.
 
-## Подготовка
+### Подготовка
 
-### Установка пакета poudriere
+#### Установка пакета poudriere
 
 ```text
 pkg install poudriere
 ```
 
-### Настройка poudriere
+#### Настройка poudriere
 
 {% code title="/usr/local/etc/poudriere.conf" %}
-```text
+```bash
 ZPOOL=zroot
 ZROOTFS=/poudriere
 BASEFS=/poudriere
@@ -25,7 +25,7 @@ BUILDER_HOSTNAME=freebsd.local
 ```
 {% endcode %}
 
-### Формирование среды для сборки пакетов
+#### Формирование среды для сборки пакетов
 
 Создание дерева портов с использованием `portsnap` в каталоге `/poudriere/ports/default`
 
@@ -63,7 +63,7 @@ poudriere jail -u -t 10.2-RELEASE -j 101amd64
 poudriere jail -r 102amd54 -j 101amd64
 ```
 
-Для изменения точки монтирования и расположения самого `jail` необходимо отредактировать  файлы `fs` и `mnt` в каталоге `/usr/local/poudriere.d/jails/102amd42`.
+Для изменения точки монтирования и расположения самого `jail` необходимо отредактировать файлы `fs` и `mnt` в каталоге `/usr/local/poudriere.d/jails/102amd42`.
 
 Также внести изменения в файловую систему:
 
@@ -72,9 +72,9 @@ zfs rename zroot/poudriere/jails/101amd64 zroot/poudriere/jails/102amd64
 zfs set mountpoint=/poudriere/jails/102amd64 zroot/poudriere/jails/102amd64
 ```
 
-## Конфигурация портов и сборка пакетов
+### Конфигурация портов и сборка пакетов
 
-Чтобы не собирать все дерево портов, можно указать список только необходимых в файле 
+Чтобы не собирать все дерево портов, можно указать список только необходимых в файле
 
 {% code title="/usr/local/etc/poudriere.d/lists/102amd64" %}
 ```text
@@ -83,19 +83,19 @@ lang/php5
 ```
 {% endcode %}
 
-### Установка опций сборки пакетов по своему усмотрению
+#### Установка опций сборки пакетов по своему усмотрению
 
 ```text
 poudriere options -j 102amd64 -f /usr/local/etc/poudriere.d/lists/102amd64
 ```
 
-### Сборка пакетов с установленными опциями
+#### Сборка пакетов с установленными опциями
 
 ```text
 poudriere bulk -j 102amd64 -f /usr/local/etc/poudriere.d/lists/102amd64
 ```
 
-#### Ссылки
+**Ссылки**
 
 [http://www.bsdnow.tv/tutorials/poudriere](http://www.bsdnow.tv/tutorials/poudriere)  
 [https://gist.github.com/dch/fea9ba2bf955369a05e8](https://gist.github.com/dch/fea9ba2bf955369a05e8)  

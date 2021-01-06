@@ -5,7 +5,7 @@
 ## FreeBSD
 
 * [Установка XOrg и Gnome](freebsd/installing-xorg-and-gnome.md)
-* [Свой репозиторий pkgng](freebsd/svoi-repozitorii-pkgng.md)
+* [Свой репозиторий pkgng](freebsd/own-pkgng-repository.md)
 * [Поддержка ZFS](freebsd/zfs-support.md)
 * [Использование CARP](freebsd/using-carp.md)
 * [Установка на ZFS без таблицы разделов](freebsd/install-on-zfs-with-no-partitions.md)
@@ -29,7 +29,7 @@
 
 ## MySQL
 
-* [Установка в FreeBSD](mysql/ustanovka-v-freebsd.md)
+* [Установка в FreeBSD](mysql/install-on-freebsd.md)
 * [Восстановление репликации](mysql/replication-repair.md)
 * [Полезные ссылки](mysql/usefull-links.md)
 
