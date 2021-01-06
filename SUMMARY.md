@@ -9,6 +9,8 @@
 ## macOS
 
 * [Настройка shell пользователя](macos/nastroika-shell-polzovatelya.md)
+* [Настройка  Finder](macos/nastroika-finder.md)
+* [Служба Spotlight](macos/sluzhba-spotlight.md)
 
 ## MongoDB
 
