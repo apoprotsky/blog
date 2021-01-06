@@ -2,15 +2,15 @@
 
 * [Главная страница](README.md)
 
-## PostgreSQL
+## Git
 
-* [Служебные операции](postgresql/service-operations.md)
+* [Основные операции](git/main-operations.md)
 
 ## MySQL
 
 * [Восстановление репликации](mysql/replication-repair.md)
 
-## Git
+## PostgreSQL
 
-* [Основные операции](git/main-operations.md)
+* [Служебные операции](postgresql/service-operations.md)
 
