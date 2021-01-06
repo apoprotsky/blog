@@ -4,9 +4,9 @@
 
 ## PostgreSQL
 
-* [Служебные операции](postgresql/postgresql-sluzhebnye-operacii.md)
+* [Служебные операции](postgresql/service-operations.md)
 
 ## MySQL
 
-* [Восстановление репликации](mysql/vosstanovlenie-replikacii.md)
+* [Восстановление репликации](mysql/replication-repair.md)
 
