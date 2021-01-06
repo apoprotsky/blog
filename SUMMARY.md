@@ -2,6 +2,10 @@
 
 * [Главная страница](README.md)
 
+## FreeBSD
+
+* [Управление томами ZFS](freebsd/zfs-management.md)
+
 ## Git
 
 * [Основные операции](git/main-operations.md)
@@ -19,6 +23,11 @@
 ## MySQL
 
 * [Восстановление репликации](mysql/replication-repair.md)
+* [Полезные ссылки](mysql/usefull-links.md)
+
+## PHP
+
+* [Полезные заметки](php/usefull-notes.md)
 
 ## PostgreSQL
 
@@ -27,4 +36,9 @@
 ## Unix
 
 * [Работа с архивами](unix/working-with-archives.md)
+
+## Транспорт
+
+* [Энергодар - Примерное - Новоукраинка - Ивановка - Благовещенка - Червонцы](transport/energodar-primernoe-novoukrainka-ivanovka-blagoveshenka-chervoncy.md)
+* [Никополь - Каменка-Днепровская](transport/nikopol-kamenka-dneprovskaya.md)
 
