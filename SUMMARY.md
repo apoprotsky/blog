@@ -4,7 +4,8 @@
 
 ## FreeBSD
 
-* [Управление томами ZFS](freebsd/zfs-management.md)
+* [Управление пулами ZFS](freebsd/zfs-pool-management.md)
+* [Управление томами ZFS](freebsd/zfs-dataset-management.md)
 
 ## Git
 
