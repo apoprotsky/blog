@@ -41,6 +41,10 @@
 
 * [Служебные операции](postgresql/service-operations.md)
 
+## Redis
+
+* [Полезные заметки](redis/usefull-notes.md)
+
 ## SVN
 
 * [Полезные заметки](svn/usefull-notes.md)
