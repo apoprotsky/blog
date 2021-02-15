@@ -8,14 +8,14 @@
 
 По умолчанию будет создана новая файловая система. Для создания тома \(`volume`\) нужно указать флаг `-V` и размер. Том используется как блочное устройство.
 
-```bash
+```text
 zfs create zroot/home
 zfs create zroot/data -V 1G
 ```
 
 ### Удаление тома
 
-```bash
+```text
 zfs destroy zroot/home
 ```
 
@@ -25,19 +25,19 @@ zfs destroy zroot/home
 
 Для создания снимков вложенных наборов данных используется флаг `-r`
 
-```bash
+```text
 zfs snapshot zroot/home@today
 ```
 
 ###  Откат набора данных до состояния снимка
 
-```bash
+```text
 zfs rollback zroot/home@today
 ```
 
 ### Удаление снимка набора данных
 
-```bash
+```text
 zfs destroy zroot/home@today
 ```
 
@@ -47,13 +47,13 @@ zfs destroy zroot/home@today
 
 #### Пересылка полного снимка
 
-```bash
+```text
 zfs send zroot/home@today | ssh host zfs recv zbackup/home
 ```
 
 #### Пересылка полных снимков с рекурсией по вложенным наборам данных
 
-```bash
+```text
 zfs send -R zroot/home@today | ssh host zfs recv -dF zbackup
 ```
 
@@ -63,7 +63,7 @@ zfs send -R zroot/home@today | ssh host zfs recv -dF zbackup
 
 #### Пересылка разности снимков
 
-```bash
+```text
 zfs sent -i zroot/home@snap1 zroot/home@snap2 | ssh host zfs recv zbackup/home
 ```
 

@@ -8,26 +8,26 @@
 Запускаем окно терминала  
 Делаем копию файла `SystemFolderLocalizations.strings`, например в каталог Документы:
 
-```bash
+```text
 cp /System/Library/CoreServices/SystemFolderLocalizations/ \
   ru.lproj/SystemFolderLocalizations.strings ~/Documents
 ```
 
 Переходим в каталог Документы и преобразовываем файл в `xml` формат:
 
-```bash
+```text
 cd ~/Documentsplutil -convert xml1 -e xml SystemFolderLocalizations.strings
 ```
 
 Преобразованный файл будет сохранен с именем `SystemFolderLocalizations.xml`. Открываем `SystemFolderLocalizations.xml` в любом текстовом редакторе и добавляем желаемые строки. Преобразовываем файл из фрмата `xml` в plist:
 
-```bash
+```text
 plutil -convert binary1 -e binary SystemFolderLocalizations.xml
 ```
 
 Преобразованный файл будет сохранен под именем `SystemFolderLocalizations.binary`. Заменяем оригинальный файл своим. Для копирования необходимы права root-а:
 
-```bash
+```text
 sudo cp ~/Dociments/SystemFolderLocalizations.binary \
   /System/Library/CoreServices/SystemFolderLocalizations/ \
   ru.lproj/SystemFolderLocalizations.strings
@@ -35,13 +35,13 @@ sudo cp ~/Dociments/SystemFolderLocalizations.binary \
 
 Перезапускаем `Finder`:
 
-```bash
+```text
 killall Finder
 ```
 
 Теперь чтобы локализовать название каталоге остается создать файл `.localized`
 
-```bash
+```text
 cd /some/dir
 touch .localized
 ```

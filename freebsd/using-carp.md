@@ -24,7 +24,7 @@ device carp
 Разрешить `CARP` автоматически обрабатывать пропадания хостов и менять роль.
 
 {% code title="/etc/sysctl.conf" %}
-```bash
+```text
 net.inet.carp.allow=1
 net.inet.carp.preempt=1
 ```
@@ -37,7 +37,7 @@ net.inet.carp.preempt=1
 Настройка внешних интерфейсов хостов `em0` в `/etc/rc.conf`. Общий адрес `1.1.1.1`, `id` хоста `1`.
 
 {% code title="/etc/rc.conf" %}
-```bash
+```text
 #Хост 1
 ifconfig_em0="inet 1.1.1.2 netmask 255.255.255.0"
 ifconfig_em0_alias0="inet 1.1.1.1 netmask 255.255.255.255 vhid 1 advskew 100 pass carppassword"
@@ -51,7 +51,7 @@ ifconfig_em0_alias0="inet 1.1.1.1 netmask 255.255.255.255 vhid 1 advskew 200 pas
 Настройка внутренних интерфейсов хостов `em1` в `/etc/rc.conf`. Общий адрес `10.0.0.1`, `id` хоста `2`.
 
 {% code title="/etc/rc.conf" %}
-```bash
+```text
 #Хост 1
 ifconfig_em1="inet 10.0.0.2 netmask 255.255.255.0"
 ifconfig_em1_alias0="inet 10.0.0.1 netmask 255.255.255.255 vhid 2 advskew 100 pass carppassword" 
