@@ -1,65 +1,41 @@
 # Table of contents
 
 * [Главная страница](README.md)
-
-## FreeBSD
-
-* [Установка XOrg и Gnome](freebsd/installing-xorg-and-gnome.md)
-* [Свой репозиторий pkgng](freebsd/own-pkgng-repository.md)
-* [Поддержка ZFS](freebsd/zfs-support.md)
-* [Использование CARP](freebsd/using-carp.md)
-* [Установка на ZFS без таблицы разделов](freebsd/install-on-zfs-with-no-partitions.md)
-
-## Git
-
-* [Основные операции](git/main-operations.md)
-
-## macOS
-
-* [Настройка  Finder](macos/configure-finder.md)
-* [Настройка shell пользователя](macos/configure-user-shell.md)
-* [Служба Spotlight](macos/spotlight-service.md)
-* [Локализация каталогов](macos/directory-localization.md)
-* [Маршрутизация и VPN](macos/routing-and-vpn.md)
-
-## MongoDB
-
-* [Пользователи и авторизация](mongodb/users-and-auth.md)
-* [Полезные ссылки](mongodb/usefull-links.md)
-
-## MySQL
-
-* [Установка в FreeBSD](mysql/install-on-freebsd.md)
-* [Восстановление репликации](mysql/replication-repair.md)
-* [Полезные ссылки](mysql/usefull-links.md)
-
-## PHP
-
-* [Полезные заметки](php/usefull-notes.md)
-
-## PostgreSQL
-
-* [Служебные операции](postgresql/service-operations.md)
-
-## Redis
-
-* [Полезные заметки](redis/usefull-notes.md)
-
-## SVN
-
-* [Полезные заметки](svn/usefull-notes.md)
-
-## Unix
-
-* [Работа с архивами](unix/working-with-archives.md)
-
-## ZFS
-
-* [Управление пулами ZFS](zfs/zfs-pool-management.md)
-* [Управление томами ZFS](zfs/zfs-dataset-management.md)
-
-## Транспорт
-
-* [Энергодар - Примерное - Новоукраинка - Ивановка - Благовещенка - Червонцы](transport/energodar-primernoe-novoukrainka-ivanovka-blagoveshenka-chervoncy.md)
-* [Никополь - Каменка-Днепровская](transport/nikopol-kamenka-dneprovskaya.md)
+* [FreeBSD](freebsd/README.md)
+  * [Установка XOrg и Gnome](freebsd/installing-xorg-and-gnome.md)
+  * [Свой репозиторий pkgng](freebsd/own-pkgng-repository.md)
+  * [Поддержка ZFS](freebsd/zfs-support.md)
+  * [Использование CARP](freebsd/using-carp.md)
+  * [Установка на ZFS без таблицы разделов](freebsd/install-on-zfs-with-no-partitions.md)
+* [GIT](git/README.md)
+  * [Основные операции](git/main-operations.md)
+* [macOS](macos/README.md)
+  * [Настройка  Finder](macos/configure-finder.md)
+  * [Настройка shell пользователя](macos/configure-user-shell.md)
+  * [Служба Spotlight](macos/spotlight-service.md)
+  * [Локализация каталогов](macos/directory-localization.md)
+  * [Маршрутизация и VPN](macos/routing-and-vpn.md)
+* [MongoDB](mongodb/README.md)
+  * [Пользователи и авторизация](mongodb/users-and-auth.md)
+  * [Полезные ссылки](mongodb/usefull-links.md)
+* [MySQL](mysql/README.md)
+  * [Установка в FreeBSD](mysql/install-on-freebsd.md)
+  * [Восстановление репликации](mysql/replication-repair.md)
+  * [Полезные ссылки](mysql/usefull-links.md)
+* [PHP](php/README.md)
+  * [Полезные заметки](php/usefull-notes.md)
+* [PostgreSQL](postgresql/README.md)
+  * [Служебные операции](postgresql/service-operations.md)
+* [Redis](redis/README.md)
+  * [Полезные заметки](redis/usefull-notes.md)
+* [SVN](svn/README.md)
+  * [Полезные заметки](svn/usefull-notes.md)
+* [UNIX](unix/README.md)
+  * [Работа с архивами](unix/working-with-archives.md)
+* [ZFS](zfs/README.md)
+  * [Управление пулами ZFS](zfs/zfs-pool-management.md)
+  * [Управление томами ZFS](zfs/zfs-dataset-management.md)
+* [Транспорт](transport/README.md)
+  * [Никополь - Каменка-Днепровская](transport/nikopol-kamenka-dneprovskaya.md)
+  * [Энергодар - Примерное - Новоукраинка - Ивановка - Благовещенка - Червонцы](transport/energodar-primernoe-novoukrainka-ivanovka-blagoveshenka-chervoncy.md)
 
