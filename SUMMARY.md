@@ -9,6 +9,8 @@
   * [Установка на ZFS без таблицы разделов](freebsd/install-on-zfs-with-no-partitions.md)
 * [GIT](git/README.md)
   * [Основные операции](git/main-operations.md)
+* [Linux](linux/README.md)
+  * [APT](linux/apt.md)
 * [macOS](macos/README.md)
   * [Настройка  Finder](macos/configure-finder.md)
   * [Настройка shell пользователя](macos/configure-user-shell.md)
