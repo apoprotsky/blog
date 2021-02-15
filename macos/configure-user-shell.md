@@ -6,13 +6,13 @@
 
 ### **Получение текущей оболочки**
 
-```text
+```bash
 dscl . -read /Users/root UserShell
 ```
 
 ### **Установка оболочки пользователя**
 
-```text
+```bash
 dscl . -change /Users/root UserShell /bin/sh /bin/csh
 ```
 

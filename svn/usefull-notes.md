@@ -4,7 +4,7 @@
 
 ## Получение справки по командам
 
-```text
+```bash
 svn help
 svn help commit
 ```
@@ -13,13 +13,13 @@ svn help commit
 
 ### Установка прав выполнения
 
-```text
+```bash
 svn propset svn:executable path/file
 ```
 
 ### Добавление файлов и каталогов в список игнорирования
 
-```text
+```bash
 svn propset svn:ignore "*.sublime*"
 svn propedit svn:ignore .
 ```

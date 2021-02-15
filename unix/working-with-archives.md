@@ -6,7 +6,7 @@
 
 ### **Упаковка файлов в tar.gz**
 
-```text
+```bash
 tar -cvzf file.tar.gz /path
 ```
 
@@ -14,13 +14,13 @@ tar -cvzf file.tar.gz /path
 
 ### **Распаковка tar.gz файлов**
 
-```text
+```bash
 tar -xvzf file.tar.gz
 ```
 
 ### **Распаковка файлов gz**
 
-```text
+```bash
 gunzip file.log.gz
 ```
 

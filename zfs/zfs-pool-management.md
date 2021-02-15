@@ -6,19 +6,19 @@
 
 Создание пула из одного диска
 
-```text
+```bash
 zpool create zroot da0
 ```
 
 Создание пула из двух дисков с увеличением дискового пространства \(`stripe`\)
 
-```text
+```bash
 zpool create zroot da0 da1
 ```
 
 Создание пула из двух дисков с дублированием данных \(`mirror`\)
 
-```text
+```bash
 zpool create zroot mirror da0 da1
 ```
 
@@ -26,31 +26,31 @@ zpool create zroot mirror da0 da1
 
 Если пул используется как загрузочный, то операции необходимо выполнять загрузившись с другого носителя.Экспорт под старым названием
 
-```text
+```bash
 zpool export oldname
 ```
 
 Импортирование с переименованием
 
-```text
+```bash
 zpool import oldpool newpool
 ```
 
 Если точка монтирования пула указана как `/`, то можно воспользоваться флагом `-R` `/path/to/altroot`. Возможно также понадобится флаг `-f`, если пул использовался в другой операционной системе.
 
-```text
+```bash
 zpool import -R /mnt -f oldpool newpool
 ```
 
 Экспорт переименованного пула
 
-```text
+```bash
 zpool export newpool
 ```
 
 И напоследок, импорт пула под новым именем
 
-```text
+```bash
 zpool import newpool
 ```
 
@@ -58,13 +58,13 @@ zpool import newpool
 
 Замена диска
 
-```text
+```bash
  zpool replace zroot da0
 ```
 
 Дополнительным параметром можно указать какой диск использовать для замены
 
-```text
+```bash
  zpool replace zroot da0 da2
 ```
 

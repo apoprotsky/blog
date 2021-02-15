@@ -4,13 +4,13 @@
 
 ## **Отображение скрытых файлов**
 
-```text
+```bash
 defaults write com.apple.finder AppleShowAllFiles true
 ```
 
 ## **Разрешение копирования из окон быстрого просмотра**
 
-```text
+```bash
 defaults write com.apple.finder QLEnableTextSelection true
 ```
 
@@ -18,7 +18,7 @@ defaults write com.apple.finder QLEnableTextSelection true
 
 Для применения настроек необходимо перезапустить  `Finder` командой
 
-```text
+```bash
 killall Finder
 ```
 
