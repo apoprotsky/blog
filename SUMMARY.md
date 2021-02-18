@@ -29,7 +29,7 @@
 * [PostgreSQL](postgresql/README.md)
   * [Служебные операции](postgresql/service-operations.md)
 * [Proxmox VE](proxmox-ve/README.md)
-  * [Управление узлами](proxmox-ve/nodes-management.md)
+  * [Управление узлами кластера](proxmox-ve/nodes-management.md)
 * [Redis](redis/README.md)
   * [Полезные заметки](redis/usefull-notes.md)
 * [SVN](svn/README.md)
