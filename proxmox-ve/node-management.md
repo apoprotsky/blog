@@ -1,7 +1,3 @@
----
-description: Proxmox Virtual Environment
----
-
 # Управление узлами кластера
 
 ## Добавление узла

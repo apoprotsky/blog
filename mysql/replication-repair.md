@@ -22,7 +22,7 @@
 
 Для определения инструкций, которые не могут быть выполнены, на основном сервере смотрим события в журнале:
 
-```text
+```bash
 mysqlbinlog -v --start-position=866962354 --stop-position=866962454 \
   mysql-bin.002599
 ```
@@ -31,7 +31,7 @@ mysqlbinlog -v --start-position=866962354 --stop-position=866962454 \
 
 После изучения событий и корректировки данных на реплике, запускаем репликацию:
 
-```text
+```sql
 STOP SLAVE;
 SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1;
 START SLAVE;

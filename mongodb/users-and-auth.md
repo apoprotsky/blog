@@ -6,7 +6,7 @@
 
 ## Создание учетной записи администратора
 
-```text
+```javascript
 use admin;
 db.createUser({
     user: "root",
@@ -17,7 +17,7 @@ db.createUser({
 
 ## Создание учетной записи пользователя для одной базы данных
 
-```text
+```javascript
 use test;
 db.createUser({
     user: "user",
@@ -28,21 +28,21 @@ db.createUser({
 
 ## Удаление учетной записи
 
-```text
+```javascript
 use test;
 db.dropUser("user");
 ```
 
 ## Просмотр списка учетных записей пользователей в базе данных
 
-```text
+```javascript
 use test;
 db.getUsers();
 ```
 
 ## Добавление ролей учетной записи пользователя
 
-```text
+```javascript
 use test;
 db.grantRolesToUser(
     "user",
@@ -52,14 +52,14 @@ db.grantRolesToUser(
 
 ## Изменение пароля учетной записи
 
-```text
+```javascript
 use test;
 db.changeUserPassword( "user", "new_password" );
 ```
 
 ## Авторизация
 
-```text
+```javascript
 use test;
 db.auth( "user", "password" );
 ```

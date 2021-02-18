@@ -6,19 +6,19 @@
 
 Создание пула на одном диске
 
-```text
+```bash
 zpool create -R /var zroot da0
 ```
 
 или зеркала на двух дисках
 
-```text
+```bash
 zpool create -R zroot mirror da0 da1
 ```
 
 ## Настройка загрузки
 
-```text
+```bash
 sysctl kern.geom.debugflags=16
 dd if=/boot/zfsboot of=/dev/da0 count=1
 dd if=/boot/zfsboot of=/dev/da0 skip=1 seek=1024
@@ -29,7 +29,7 @@ zpool set bootfs=zroot zroot
 
 ## Создание раздела swap
 
-```text
+```bash
 zfs create -V 2G -o org.freebsd:swap=on -o checksum=off -o compression=off \
   -o dedup=off -o sync=disabled -o primarycache=none zroot/swap
 ```
@@ -38,7 +38,7 @@ zfs create -V 2G -o org.freebsd:swap=on -o checksum=off -o compression=off \
 
 Это пример для тестового варианта, тонкая настройка разделов и параметров `zfs` является темой другой заметки.
 
-```text
+```bash
 zfs create zroot/home
 zfs create zroot/usr
 zfs create zroot/var
@@ -47,14 +47,14 @@ zfs create zroot/tmp
 
 ## Установка системы
 
-```text
+```bash
 cd /usr/freebsd-dist
 for file in base docs kernel src; do ( tar -C /var/zroot -xvzf $file.txz ); done
 ```
 
 ## Настройка установленной системы
 
-```text
+```bash
 chroot /var/zroot
 
 echo 'zfs_load="YES"' >> /boot/loader.conf
@@ -68,13 +68,13 @@ exit
 
 ## Размонтирование пула
 
-```text
+```bash
 zfs unmount -a
 ```
 
 ## Изменение точки монтирования
 
-```text
+```bash
 zfs set mountpoint=/ zroot
 ```
 
