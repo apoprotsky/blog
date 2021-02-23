@@ -11,6 +11,7 @@
   * [Основные операции](git/main-operations.md)
 * [Linux](linux/README.md)
   * [APT](linux/apt.md)
+  * [Изменение корневого раздела диска без перезагрузки](linux/change-root-disk-partition-without-reboot.md)
 * [macOS](macos/README.md)
   * [Настройка  Finder](macos/configure-finder.md)
   * [Настройка shell пользователя](macos/configure-user-shell.md)
