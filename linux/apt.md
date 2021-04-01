@@ -1,8 +1,8 @@
 ---
-description: Пакетный менеджер Debian / Ubuntu
+description: Система управления пакетами Debian / Ubuntu
 ---
 
-# APT
+# apt
 
 ## Установка пакетов
 
