@@ -15,6 +15,12 @@ psql --host=host --port=5432 --username=user --dbname=dbname \
   --set=sslmode=verify-full --set=sslrootcert=ca.pem
 ```
 
+## Просмотр текущей активности
+
+```sql
+select * from pg_stat_activity where datname = 'database_name';
+```
+
 ## Ссылки
 
 [https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode](https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode)
