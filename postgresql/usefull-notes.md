@@ -17,6 +17,8 @@ psql --host=host --port=5432 --username=user --dbname=dbname \
 
 ## Просмотр текущей активности
 
+Выборка текущих запросов с фильтрацией по имени базы данных
+
 ```sql
 select * from pg_stat_activity where datname = 'database_name';
 ```
