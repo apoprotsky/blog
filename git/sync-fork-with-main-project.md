@@ -22,6 +22,12 @@ git fetch upstream
 git merge upstream/master
 ```
 
+Публикация изменений основного проекта в форке
+
+```csharp
+git push origin master
+```
+
 ## Ссылки
 
 [http://chriscase.cc/2011/02/syncing-a-forked-git-repository-with-a-master-repositorys-changes](http://chriscase.cc/2011/02/syncing-a-forked-git-repository-with-a-master-repositorys-changes)
