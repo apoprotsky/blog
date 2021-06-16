@@ -9,6 +9,7 @@
   * [Установка на ZFS без таблицы разделов](freebsd/install-on-zfs-with-no-partitions.md)
 * [GIT](git/README.md)
   * [Основные операции](git/main-operations.md)
+  * [Синхронизация форка с основным проектом](git/sinkhronizaciya-forka-s-osnovnym-proektom.md)
 * [Linux](linux/README.md)
   * [apt](linux/apt.md)
   * [dpkg](linux/dpkg.md)
