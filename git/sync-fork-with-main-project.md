@@ -20,5 +20,7 @@ git fetch upstream
 git merge upstream/master
 ```
 
+## Ссылки
+
 [http://chriscase.cc/2011/02/syncing-a-forked-git-repository-with-a-master-repositorys-changes](http://chriscase.cc/2011/02/syncing-a-forked-git-repository-with-a-master-repositorys-changes)
 
