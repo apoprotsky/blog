@@ -32,7 +32,6 @@
   * [Полезные заметки](php/usefull-notes.md)
 * [PostgreSQL](postgresql/README.md)
   * [Полезные заметки](postgresql/usefull-notes.md)
-  * [Служебные операции](postgresql/service-operations.md)
 * [Proxmox VE](proxmox-ve/README.md)
   * [Управление узлами кластера](proxmox-ve/node-management.md)
 * [Redis](redis/README.md)
