@@ -4,7 +4,8 @@
 
 В логах наблюдаются сообщения подобного вида
 
-> bdev(0x562645298000 /var/lib/ceph/osd/ceph-28/block) aio\_submit retries 14 bdev(0x562645298000 /var/lib/ceph/osd/ceph-28/block) aio\_submit retries 8
+> bdev(0x562645298000 /var/lib/ceph/osd/ceph-28/block) aio\_submit retries 14\
+> bdev(0x562645298000 /var/lib/ceph/osd/ceph-28/block) aio\_submit retries 8
 
 Рекомендуют увеличить значение параметра `bdev_aio_max_queue_depth`:
 
