@@ -6,7 +6,7 @@
 
 Выбрать тип уведомления для конкретного приложения можно в настройках
 
-![](../.gitbook/assets/macos_notifications.png)
+![](../.gitbook/assets/macOS\_notifications.png)
 
 ## Настройка времени отображения уведомлений типа banner
 
@@ -18,12 +18,11 @@
 defaults write com.apple.notificationcenterui bannerTime -int 30
 ```
 
-Для `macOS` `Sierra`, `El Capitan`, `Yosemite` и более ранних указывать, что параметр имеет целочисленный тип \(`-int`\) не нужно:
+Для `macOS` `Sierra`, `El Capitan`, `Yosemite` и более ранних указывать, что параметр имеет целочисленный тип (`-int`) не нужно:
 
 ```c
 defaults write com.apple.notificationcenterui bannerTime 30
 ```
 
-[https://www.addictivetips.com/mac-os/change-banner-notification-dismiss-time-on-macos](https://www.addictivetips.com/mac-os/change-banner-notification-dismiss-time-on-macos/)  
+[https://www.addictivetips.com/mac-os/change-banner-notification-dismiss-time-on-macos](https://www.addictivetips.com/mac-os/change-banner-notification-dismiss-time-on-macos/)\
 [https://osxdaily.com/2014/01/29/change-notifications-banner-time-mac-os-x](https://osxdaily.com/2014/01/29/change-notifications-banner-time-mac-os-x/)
-
