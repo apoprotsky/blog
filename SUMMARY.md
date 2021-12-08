@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Главная страница](README.md)
+* [Ceph](ceph/README.md)
+  * [Полезные заметки](ceph/usefull-notes.md)
 * [FreeBSD](freebsd/README.md)
   * [Установка XOrg и Gnome](freebsd/installing-xorg-and-gnome.md)
   * [Свой репозиторий pkgng](freebsd/own-pkgng-repository.md)
@@ -46,4 +48,3 @@
 * [Транспорт](transport/README.md)
   * [Никополь - Каменка-Днепровская](transport/nikopol-kamenka-dneprovskaya.md)
   * [Энергодар - Примерное - Новоукраинка - Ивановка - Благовещенка - Червонцы](transport/energodar-primernoe-novoukrainka-ivanovka-blagoveshenka-chervoncy.md)
-
