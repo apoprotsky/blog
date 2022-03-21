@@ -35,6 +35,7 @@
 * [PHP](php/README.md)
   * [Полезные заметки](php/usefull-notes.md)
 * [PostgreSQL](postgresql/README.md)
+  * [Вакуумирование таблиц](postgresql/tables-vacuum.md)
   * [Полезные заметки](postgresql/usefull-notes.md)
 * [Proxmox VE](proxmox-ve/README.md)
   * [Управление узлами кластера](proxmox-ve/node-management.md)

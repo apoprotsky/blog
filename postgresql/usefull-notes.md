@@ -40,16 +40,7 @@ pg_dump --data-only --column-inserts --dbname=dbname --table=table > dump.sql
 select * from pg_stat_activity where datname = 'database_name';
 ```
 
-## Вакуумирование таблиц
-
-Для запуска вакуумирования таблицы с анализом индексов нужно выполнить следующую команду:
-
-```sql
-vacuum (verbose, analyze) "table_name";
-```
-
 ## Ссылки
 
-[https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode](https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode)  
+[https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode](https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode)\
 [https://stackoverflow.com/questions/12815496/export-specific-rows-from-a-postgresql-table-as-insert-sql-script](https://stackoverflow.com/questions/12815496/export-specific-rows-from-a-postgresql-table-as-insert-sql-script)
-
