@@ -40,6 +40,18 @@ pg_dump --data-only --column-inserts --dbname=dbname --table=table > dump.sql
 select * from pg_stat_activity where datname = 'database_name';
 ```
 
+```sql
+select pid as process_id, 
+       usename as username, 
+       datname as database_name, 
+       client_addr as client_address, 
+       application_name,
+       backend_start,
+       state,
+       state_change
+  from pg_stat_activity;
+```
+
 ## Ссылки
 
 [https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode](https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode)\
