@@ -2,6 +2,7 @@
 
 * [Главная страница](README.md)
 * [Ceph](ceph/README.md)
+  * [Настройка модуля Dashboard](ceph/setup-dashboard-module.md)
   * [Полезные заметки](ceph/usefull-notes.md)
 * [FreeBSD](freebsd/README.md)
   * [Установка XOrg и Gnome](freebsd/installing-xorg-and-gnome.md)
