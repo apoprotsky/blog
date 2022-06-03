@@ -42,6 +42,8 @@
   * [Управление узлами кластера](proxmox-ve/node-management.md)
 * [Redis](redis/README.md)
   * [Полезные заметки](redis/usefull-notes.md)
+* [Shell](shell/README.md)
+  * [Bash](shell/bash.md)
 * [SVN](svn/README.md)
   * [Полезные заметки](svn/usefull-notes.md)
 * [UNIX](unix/README.md)
