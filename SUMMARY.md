@@ -29,6 +29,8 @@
 * [Network](network/README.md)
   * [Nebula](network/nebula.md)
   * [Полезные ссылки](network/usefull-links.md)
+* [MariaDB](mariadb/README.md)
+  * [Настройка временных зон](mariadb/timezone-configuration.md)
 * [MySQL](mysql/README.md)
   * [Установка в FreeBSD](mysql/install-on-freebsd.md)
   * [Восстановление репликации](mysql/replication-repair.md)
