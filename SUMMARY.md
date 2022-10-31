@@ -13,6 +13,8 @@
 * [GIT](git/README.md)
   * [Основные операции](git/main-operations.md)
   * [Синхронизация форка с основным проектом](git/sync-fork-with-main-project.md)
+* [Kubernetes](kubernetes/README.md)
+  * [Полезные заметки](kubernetes/useful-notes.md)
 * [Linux](linux/README.md)
   * [apt](linux/apt.md)
   * [dpkg](linux/dpkg.md)
