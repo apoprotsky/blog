@@ -22,4 +22,5 @@ kubectl get pods -A -o=custom-columns='NAME:.metadata.name,SECRETS:.spec.contain
 
 ## Ссылки
 
+[https://stackoverflow.com/questions/43225591/selecting-array-elements-with-the-custom-columns-kubernetes-cli-output](https://stackoverflow.com/questions/43225591/selecting-array-elements-with-the-custom-columns-kubernetes-cli-output)\
 [https://stackoverflow.com/questions/46406596/how-to-identify-unused-secrets-in-kubernetes](https://stackoverflow.com/questions/46406596/how-to-identify-unused-secrets-in-kubernetes)
