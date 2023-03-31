@@ -40,6 +40,7 @@
 * [PHP](php/README.md)
   * [Полезные заметки](php/usefull-notes.md)
 * [PostgreSQL](postgresql/README.md)
+  * [Репликация](postgresql/replikaciya.md)
   * [Вакуумирование таблиц](postgresql/tables-vacuum.md)
   * [Полезные заметки](postgresql/usefull-notes.md)
 * [Proxmox VE](proxmox-ve/README.md)
