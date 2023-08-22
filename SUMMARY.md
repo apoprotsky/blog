@@ -4,6 +4,8 @@
 * [Ceph](ceph/README.md)
   * [Настройка модуля Dashboard](ceph/setup-dashboard-module.md)
   * [Полезные заметки](ceph/usefull-notes.md)
+* [ClickHouse](clickhouse/README.md)
+  * [Экспорт и импорт данных](clickhouse/data-export-import.md)
 * [FreeBSD](freebsd/README.md)
   * [Установка XOrg и Gnome](freebsd/installing-xorg-and-gnome.md)
   * [Свой репозиторий pkgng](freebsd/own-pkgng-repository.md)
