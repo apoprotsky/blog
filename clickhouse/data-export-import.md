@@ -1,5 +1,7 @@
 # Экспорт и импорт данных
 
+## Экспорт данных
+
 Экспорт данных из таблицы можно выполнить с помощью консольного клиента
 
 {% code overflow="wrap" %}
@@ -18,6 +20,8 @@ clickhouse client -q "SELECT * FROM dbname.tablename FORMAT JSON" | gzip > table
 ```
 {% endcode %}
 
+## Импорт данных
+
 Для импорта данных также можно воспользоваться консольным клиентом
 
 {% code overflow="wrap" %}
@@ -26,7 +30,7 @@ zcat table.tsv.gz | clickhouse client -q "INSERT INTO dbname.tablename FORMAT Ta
 ```
 {% endcode %}
 
-Ссылки
+## Ссылки
 
 [https://clickhouse.com/docs/knowledgebase/file-export](https://clickhouse.com/docs/knowledgebase/file-export)\
 [https://clickhouse.com/docs/en/integrations/data-formats/csv-tsv](https://clickhouse.com/docs/en/integrations/data-formats/csv-tsv)\
