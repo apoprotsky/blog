@@ -16,6 +16,7 @@
   * [Основные операции](git/main-operations.md)
   * [Синхронизация форка с основным проектом](git/sync-fork-with-main-project.md)
 * [Kubernetes](kubernetes/README.md)
+  * [Установка k3s](kubernetes/k3s-installation.md)
   * [Полезные заметки](kubernetes/useful-notes.md)
 * [Linux](linux/README.md)
   * [apt](linux/apt.md)
