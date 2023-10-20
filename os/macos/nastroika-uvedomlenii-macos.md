@@ -6,7 +6,11 @@
 
 Выбрать тип уведомления для конкретного приложения можно в настройках
 
-![](../.gitbook/assets/macOS\_notifications.png)
+<div align="center">
+
+<img src="../../.gitbook/assets/macOS_notifications.png" alt="">
+
+</div>
 
 ## Настройка времени отображения уведомлений типа banner
 

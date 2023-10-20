@@ -1,2 +1,6 @@
-# Network
+---
+description: Network technologies
+---
+
+# Сетевые технологии
 

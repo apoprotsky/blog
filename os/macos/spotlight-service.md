@@ -16,5 +16,4 @@ sudo launchctl load \
 
 ## Ссылки
 
-\*\*\*\*[http://osxdaily.com/2011/12/10/disable-or-enable-spotlight-in-mac-os-x-lion/](http://osxdaily.com/2011/12/10/disable-or-enable-spotlight-in-mac-os-x-lion/)
-
+[http://osxdaily.com/2011/12/10/disable-or-enable-spotlight-in-mac-os-x-lion/](http://osxdaily.com/2011/12/10/disable-or-enable-spotlight-in-mac-os-x-lion/)
