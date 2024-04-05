@@ -18,6 +18,8 @@
     * [Полезные заметки](databases/postgresql/usefull-notes.md)
   * [Redis](databases/redis/README.md)
     * [Полезные заметки](databases/redis/usefull-notes.md)
+* [Безопасность](security/README.md)
+  * [PostgreSQL](security/postgresql.md)
 * [Инфраструктура](infrastructure/README.md)
   * [Kubernetes](infrastructure/kubernetes/README.md)
     * [Установка k3s](infrastructure/kubernetes/k3s-installation.md)
