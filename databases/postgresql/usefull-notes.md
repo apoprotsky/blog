@@ -52,6 +52,19 @@ select pid as process_id,
   from pg_stat_activity;
 ```
 
+## Поиск таблиц без PK
+
+```sql
+SELECT table_schema, table_name
+FROM information_schema.tables
+WHERE table_schema NOT IN ('pg_catalog', 'information_schema')
+  AND (table_schema, table_name) NOT IN (
+    SELECT table_schema, table_name
+    FROM information_schema.table_constraints
+    WHERE constraint_type = 'PRIMARY KEY'
+  );
+```
+
 ## Ссылки
 
 [https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode](https://stackoverflow.com/questions/14021998/using-psql-to-connect-to-postgresql-in-ssl-mode)\
