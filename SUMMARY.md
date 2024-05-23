@@ -13,7 +13,7 @@
     * [Восстановление репликации](databases/mysql/replication-repair.md)
     * [Полезные ссылки](databases/mysql/usefull-links.md)
   * [PostgreSQL](databases/postgresql/README.md)
-    * [Репликация](databases/postgresql/replikaciya.md)
+    * [Репликация](databases/postgresql/replication.md)
     * [Вакуумирование таблиц](databases/postgresql/tables-vacuum.md)
     * [Полезные заметки](databases/postgresql/usefull-notes.md)
   * [Redis](databases/redis/README.md)
