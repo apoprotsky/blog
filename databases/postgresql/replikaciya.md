@@ -16,6 +16,19 @@ select pg_create_physical_replication_slot(‘slot_1’);
 SELECT
   slot_name,
   pg_size_pretty(
+    pg_wal_lsn_diff(pg_current_wal_lsn(), restart_lsn)
+  ) AS replicationSlotLag,
+  active
+FROM
+  pg_replication_slots;
+```
+
+Для более старых версий (9.х) можно использовать такой же запрос, но с другими функциями для упрощения работы с `wal`
+
+```sql
+SELECT
+  slot_name,
+  pg_size_pretty(
     pg_xlog_location_diff(pg_current_xlog_location(), restart_lsn)
   ) AS replicationSlotLag,
   active
