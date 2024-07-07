@@ -8,6 +8,7 @@
     * [Настройка временной зоны](databases/mariadb/timezone-configuration.md)
   * [MongoDB](databases/mongodb/README.md)
     * [Пользователи и авторизация](databases/mongodb/users-and-auth.md)
+    * [Конфигурация кэша WiredTiger](databases/mongodb/konfiguraciya-kesha-wiredtiger.md)
   * [MySQL](databases/mysql/README.md)
     * [Установка в FreeBSD](databases/mysql/install-on-freebsd.md)
     * [Восстановление репликации](databases/mysql/replication-repair.md)
