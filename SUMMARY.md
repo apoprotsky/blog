@@ -23,6 +23,8 @@
 * [Безопасность](security/README.md)
   * [PostgreSQL](security/postgresql.md)
 * [Инфраструктура](infrastructure/README.md)
+  * [Docker](infrastructure/docker/README.md)
+    * [Полезные заметки](infrastructure/docker/useful-notes.md)
   * [Kubernetes](infrastructure/kubernetes/README.md)
     * [Установка k3s](infrastructure/kubernetes/k3s-installation.md)
     * [Полезные заметки](infrastructure/kubernetes/useful-notes.md)
