@@ -67,6 +67,7 @@
 * [Файловые системы](filesystems/README.md)
   * [Ceph](filesystems/ceph/README.md)
     * [Настройка модуля Dashboard](filesystems/ceph/setup-dashboard-module.md)
+    * [Мониторинг](filesystems/ceph/monitoring.md)
     * [Полезные заметки](filesystems/ceph/usefull-notes.md)
   * [ZFS](filesystems/zfs/README.md)
     * [Управление пулами ZFS](filesystems/zfs/zfs-pool-management.md)
