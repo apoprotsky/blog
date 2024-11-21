@@ -21,6 +21,8 @@
   * [Redis](databases/redis/README.md)
     * [Полезные заметки](databases/redis/usefull-notes.md)
 * [Безопасность](security/README.md)
+  * [OpenSSL](security/openssl/README.md)
+    * [Работа с контейнером p12](security/openssl/export-certificates-and-key-from-p12.md)
   * [PostgreSQL](security/postgresql.md)
 * [Инфраструктура](infrastructure/README.md)
   * [Docker](infrastructure/docker/README.md)
